@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Boeing/config-file-validator/pkg/finder"
-	"github.com/Boeing/config-file-validator/pkg/reporter"
+	"github.com/Terif1/config-file-validator/pkg/finder"
+	"github.com/Terif1/config-file-validator/pkg/reporter"
 )
 
 // GroupOutput is a global variable that is used to
