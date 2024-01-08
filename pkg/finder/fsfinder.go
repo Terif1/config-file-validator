@@ -8,7 +8,7 @@ import (
 
 	"slices"
 
-	"github.com/Boeing/config-file-validator/pkg/filetype"
+	"github.com/Terif1/config-file-validator/pkg/filetype"
 )
 
 type FileSystemFinder struct {
