@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Boeing/config-file-validator/pkg/reporter"
+	"github.com/Terif1/config-file-validator/pkg/reporter"
 )
 
 // Group Reports by File Type
