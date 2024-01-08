@@ -34,10 +34,10 @@ import (
 	"slices"
 	"strings"
 
-	configfilevalidator "github.com/Boeing/config-file-validator"
-	"github.com/Boeing/config-file-validator/pkg/cli"
-	"github.com/Boeing/config-file-validator/pkg/finder"
-	"github.com/Boeing/config-file-validator/pkg/reporter"
+	configfilevalidator "github.com/Terif1/config-file-validator"
+	"github.com/Terif1/config-file-validator/pkg/cli"
+	"github.com/Terif1/config-file-validator/pkg/finder"
+	"github.com/Terif1/config-file-validator/pkg/reporter"
 )
 
 type validatorConfig struct {
