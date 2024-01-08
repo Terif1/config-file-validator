@@ -1,7 +1,7 @@
 package filetype
 
 import (
-	"github.com/Boeing/config-file-validator/pkg/validator"
+	"github.com/Terif1/config-file-validator/pkg/validator"
 )
 
 // The FileType object stores information
