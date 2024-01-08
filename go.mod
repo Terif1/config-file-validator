@@ -1,4 +1,4 @@
-module github.com/Boeing/config-file-validator
+module github.com/Terif1/config-file-validator
 
 go 1.21
 
