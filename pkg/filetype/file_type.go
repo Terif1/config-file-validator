@@ -34,7 +34,7 @@ var YamlFileType = FileType{
 // represent a XML file
 var XmlFileType = FileType{
 	"xml",
-	[]string{"xml"},
+	[]string{"xml", "cfg", "sbc", "sbs"},
 	validator.XmlValidator{},
 }
 
