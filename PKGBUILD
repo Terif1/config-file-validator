@@ -5,7 +5,7 @@ pkgver=1.5.0
 pkgrel=1
 pkgdesc="A tool to validate the syntax of configuration files"
 arch=('x86_64')
-url="https://github.com/Boeing/config-file-validator"
+url="https://github.com/Terif1/config-file-validator"
 license=('Apache 2.0')
 depends=('glibc')
 makedepends=('go')
@@ -19,7 +19,7 @@ build() {
   GOARCH=amd64 \
   go build \
   -ldflags="-w -s -extldflags '-static' \
-  -X github.com/Boeing/config-file-validator.version=$pkgver" \
+  -X github.com/Terif1/config-file-validator.version=$pkgver" \
   -tags netgo \
   -o validator \
   cmd/validator/validator.go
