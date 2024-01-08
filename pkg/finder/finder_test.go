@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Boeing/config-file-validator/pkg/filetype"
-	"github.com/Boeing/config-file-validator/pkg/validator"
+	"github.com/Terif1/config-file-validator/pkg/filetype"
+	"github.com/Terif1/config-file-validator/pkg/validator"
 )
 
 func Test_fsFinder(t *testing.T) {
