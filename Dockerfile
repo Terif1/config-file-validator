@@ -8,7 +8,7 @@ RUN CGO_ENABLED=0 \
   GOOS=linux \
   GOARCH=amd64 \
   go build \
-  -ldflags="-w -s -extldflags '-static' -X github.com/Boeing/config-file-validator.version=$VALIDATOR_VERSION" \
+  -ldflags="-w -s -extldflags '-static' -X github.com/Terif1/config-file-validator.version=$VALIDATOR_VERSION" \
   -tags netgo \
   -o validator \
   cmd/validator/validator.go
